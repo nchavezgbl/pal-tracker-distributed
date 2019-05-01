@@ -1,5 +1,6 @@
 apply from: "$projectDir/../server.gradle"
 
 dependencies {
+    compile "io.pivotal.spring.cloud:spring-cloud-services-starter-circuit-breaker"
     compile project(":components:backlog")
 }
